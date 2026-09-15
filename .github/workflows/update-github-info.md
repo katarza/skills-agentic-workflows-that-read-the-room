@@ -10,6 +10,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   github:
     toolsets:
@@ -32,10 +33,11 @@ Keep Mona's GitHub Info website current with concise, practical updates from off
 2. Use `web-fetch` to read the public GitHub Agentic Workflows guidance at `https://raw.githubusercontent.com/github/gh-aw/main/.github/aw/github-agentic-workflows.md`.
 3. Use `web-fetch` to read `https://github.blog/latest/`.
 4. Use `web-fetch` to read `https://github.blog/changelog/`.
+5. Use `web-fetch` to read `https://awesome-copilot.github.com/workflows/`.
 
 ## Update
 
-Review the fetched material against the existing content. Update `site/content/github-info.md` with a small set of useful, current items, keeping summaries short and practical, preserving the existing editorial structure, and citing the GitHub Blog or GitHub Changelog source for every item derived from those sites. Do not change unrelated files or invent facts that are not supported by the fetched sources.
+Review the fetched material against the existing content. Update `site/content/github-info.md` with a small set of useful, current items, keeping summaries short and practical, preserving the existing editorial structure, and citing the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows source for every item derived from those sites. Do not change unrelated files or invent facts that are not supported by the fetched sources.
 
 Use the `edit` tool to make the file change. After editing, review the resulting diff and confirm that the update is limited to `site/content/github-info.md`.
 
